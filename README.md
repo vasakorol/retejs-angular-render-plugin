@@ -1,5 +1,8 @@
-Angular Render (experimental)
+Angular Render Plugin (copy)
 ====
+## Current plugin is basen on https://github.com/retejs/angular-render-plugin
+
+
 #### Rete.js plugin
 
 ```ts
