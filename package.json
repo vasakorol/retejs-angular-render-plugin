@@ -1,6 +1,6 @@
 {
-  "name": "rete-angular-render-plugin",
-  "version": "0.2.2",
+  "name": "@vasko/retejs-angular-render-plugin",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "build": "ng-packagr",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/retejs/angular-render-plugin.git"
+    "url": "git+https://github.com/vasakorol/retejs-angular-render-plugin.git"
   },
   "keywords": [
     "angular",
     "rete.js"
   ],
-  "author": "Vitaliy Stoliarov",
+  "author": "Vasyl Korol",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/retejs/angular-render-plugin/issues"
+    "url": "https://github.com/vasakorol/retejs-angular-render-plugin/issues"
   },
-  "homepage": "https://github.com/retejs/angular-render-plugin#readme",
+  "homepage": "https://github.com/vasakorol/retejs-angular-render-plugin#readme",
   "peerDependencies": {
     "@angular/common": ">=12.0.0 <13.0.0",
     "@angular/core": ">=12.0.0 <13.0.0",
