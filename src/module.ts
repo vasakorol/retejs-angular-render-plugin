@@ -32,11 +32,6 @@ import { CustomComponent } from './custom.component';
     ControlDirective,
     SocketDirective,
     KebabPipe
-  ],
-  entryComponents: [
-    NodeComponent,
-    SocketComponent,
-    CustomComponent
   ]
 })
 export class ReteModule {
