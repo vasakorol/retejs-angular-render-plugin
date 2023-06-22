@@ -1,0 +1,44 @@
+{
+  "name": "@vasko/retejs-angular-render-plugin",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasakorol/retejs-angular-render-plugin.git"
+  },
+  "keywords": [
+    "angular",
+    "angular12",
+    "rete.js"
+  ],
+  "author": "Vasyl Korol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasakorol/retejs-angular-render-plugin/issues"
+  },
+  "homepage": "https://github.com/vasakorol/retejs-angular-render-plugin#readme",
+  "peerDependencies": {
+    "@angular/common": ">=15.0.0 <17.0.0",
+    "@angular/core": ">=15.0.0 <17.0.0",
+    "@angular/elements": ">=15.0.0 <17.0.0",
+    "rete": ">=1.5.2",
+    "rxjs": ">=7.5.0",
+    "zone.js": ">=0.11.4"
+  },
+  "module": "fesm2022/vasko-retejs-angular-render-plugin.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/vasko-retejs-angular-render-plugin.mjs",
+      "esm": "./esm2022/vasko-retejs-angular-render-plugin.mjs",
+      "default": "./fesm2022/vasko-retejs-angular-render-plugin.mjs"
+    }
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": ">=2.3.0"
+  }
+}
